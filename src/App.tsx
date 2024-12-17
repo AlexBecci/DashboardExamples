@@ -14,6 +14,8 @@ import { TopExpenseCategories } from './components/TopExpenseCategories'
 import { IncomeSourceDistribution } from './components/IncomeSourceDistribution'
 import { SavingsGoalTracker } from './components/SavingsGoalTracker'
 import { ParkingDashboard } from './components/ParkingDashboard'
+import { ExampleChart } from './components/ExampleChart'
+import { Page } from './components/Page'
 
 function App() {
   /* 
@@ -89,13 +91,17 @@ function App() {
             <div className="bg-white rounded-lg shadow-md p-4">
               <h3 className="text-xl font-semibold mb-4">Seguimiento de Metas de Ahorro</h3>
               <SavingsGoalTracker />
-            </div>
-          </div>
-        </div>
-      </div>
-    ) */
+              </div>
+              </div>
+              </div>
+              </div>
+            ) */
   return (
-    <ParkingDashboard />
+    <div>
+      {/* < ExampleChart /> */}
+      <Page />
+    </div>
+
   )
 }
 
